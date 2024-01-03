@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RunningTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#217373</item>
+    </style>
+
+    <style name="Theme.RunningTracker" parent="Base.Theme.RunningTracker">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="SpinnerTheme">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+</resources>
